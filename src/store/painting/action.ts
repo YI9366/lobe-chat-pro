@@ -527,7 +527,7 @@ export const createPaintingAction: StateCreator<
     }, 10_000);
   },
 
-  fetchOpenAI: async (p: Painting, _params: any) => {
+  fetchOpenAI: async (p: Painting, _: any) => {
     const painting = { ...p };
     let payload: any = {
       ...painting.config,
