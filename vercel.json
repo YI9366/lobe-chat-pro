@@ -1,4 +1,4 @@
 {
   "buildCommand": "npx next build",
-  "installCommand": "echo '' > .npmrc && npm install --legacy-peer-deps"
+  "installCommand": "bun install"
 }
